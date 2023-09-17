@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iniciar Sesión</title>
+        <meta http-equiv="Content-Language" content="es">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <link rel="stylesheet" 
+              href="webjars/bootstrap/5.1.0/css/bootstrap.min.css" type="text/css" />
+</head>
+<body >
+<center>
+    <div class="container "><br>
+        <div class="card" style="width: 20rem; height: 26rem;">
+            <br>
+            <h1 class="display-5">Iniciar Sesión</h1><br>
+    <form action="LoginServlet"  method="post">
+        Usuario: <input type="text" class="form-control" 
+                        placeholder="Usuario"  aria-describedby="basic-addon1"
+                        name="usuario" style="width: 15rem;"><br>
+        <br>
+        Clave: <input type="password" class="form-control" 
+                      placeholder="Contraseña" 
+                      aria-describedby="basic-addon1"
+                      name="clave" style="width: 15rem;"><br>
+        <br>
+        <input type="submit" class="btn btn-info" value="Iniciar Sesión">
+        <br>
+    </form>
+    </div>
+</div>
+    </center>
+</body>
+</html>

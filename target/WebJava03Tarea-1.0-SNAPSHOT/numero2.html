@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+<head>
+    <title>Ingrese un número</title>
+            <meta http-equiv="Content-Language" content="es">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+            <link rel="stylesheet" 
+              href="webjars/bootstrap/5.1.0/css/bootstrap.min.css" type="text/css" />
+</head>
+<body>
+<center>
+   <div class="container "><br>
+    <div class="card" style="width: 20rem; height: 24rem;">
+    <h1>Ingrese un número</h1>
+
+   <form action="NumerosPrimosServlet" method="post">
+        <br>
+        Ingrese un número "n":
+        <br>
+        <br>
+        <input type="text" class="form-control" placeholder="Número"  
+               aria-describedby="basic-addon1" style="width: 15rem;" name="n"><br>
+        <br>
+        
+        <input type="submit" class="btn btn-info" value="Ver Números Primos">
+    </form>
+    </div>
+    </div>
+</center>
+</body>
+</html>
